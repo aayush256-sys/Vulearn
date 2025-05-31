@@ -30,15 +30,6 @@ const Labs = () => {
       hoverColor: "hover:border-yellow-500 hover:text-yellow-500",
     },
     {
-      title: "Cryptographic Failures",
-      description:
-        "Explore the consequences of weak or improperly implemented cryptographic solutions. Gain insights into protecting data in transit and at rest by following modern encryption standards.",
-      link: "/learn/labs/cryptographic-failure",
-      icon: <Key className="w-8 h-8 text-orange-500" />,
-      color: "bg-green-100",
-      hoverColor: "hover:border-green-500 hover:text-green-500",
-    },
-    {
       title: "Injection Attacks",
       description:
         "Understand how attackers exploit injection vulnerabilities like SQL injection or XSS to execute malicious code. Learn preventive measures, such as input validation and prepared statements.",

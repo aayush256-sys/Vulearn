@@ -1,4 +1,5 @@
 import express from 'express';
+import path from 'path';
 import Nosql from '../src/lab/A03-Injection/no-sql-injection/user.route';
 import Cmdinjection from '../src/lab/A03-Injection/command-injection/command.route';
 import SqlInjection  from "../src/lab/A03-Injection/sql-injection/sqluser.route";
@@ -16,6 +17,7 @@ app.use(
     credentials: true,
   })
 );
+
 app.use(express.json());
 app.use('/api/v1/no-sql',Nosql);
 app.use('/api/v1/cmdi',Cmdinjection);

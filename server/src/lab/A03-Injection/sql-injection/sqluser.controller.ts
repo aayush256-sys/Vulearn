@@ -7,10 +7,8 @@ export const createUserSchema = async (req: Request, res: Response): Promise<Res
     
         const { username, password } = req.body;
     
-        const resQuery = await pool.query(`SELECT * FROM user_schema.users WHERE username = '${username}'
-           AND password = '${password}'`);
-
-
+        const resQuery = await pool.query(`SELECT * FROM user_schema.users
+            WHERE username = '${username}' AND password = '${password}'`);
         if (resQuery.rows.length === 0) {
                 return res.status(401).json({message:'Invalid credentials'});
          }
