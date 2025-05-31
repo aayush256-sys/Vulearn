@@ -1,5 +1,5 @@
 ﻿$Url = "http://localhost:3000/api/v1/brute/login"
-$Password = "eiV~Hhm5ss"
+$Password = ""
 
 
 $Usernames = Get-Content -Path "username.txt"
