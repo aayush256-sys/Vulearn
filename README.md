@@ -82,10 +82,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
 - [OWASP XSS Prevention Cheat Sheet](https://owasp.org/www-community/xss-prevention)
 
-## Contact
-For any questions or feedback, feel free to reach out to us through the issues page or via email at sujan48mishra@gmail.com.
-
----
 
 ### Next Steps:
 After going through the essentials of web security in this repository, you will be better equipped to secure your web applications against common vulnerabilities. Happy coding, and stay secure!
