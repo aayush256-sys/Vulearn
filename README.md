@@ -25,7 +25,7 @@ To get started with the examples in this repository, you will need:
 ## How to Use This Repository
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/sujan-mishra001/Vulearn
+   git clone https://github.com/aayush256-sys/Vulearn.git
    ```
 
 2. Set up the provided sample web applications to see how vulnerabilities like XSS and SQL Injection can be exploited and mitigated.
